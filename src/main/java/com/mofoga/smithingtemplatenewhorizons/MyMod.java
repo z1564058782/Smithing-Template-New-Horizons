@@ -1,5 +1,6 @@
 package com.mofoga.smithingtemplatenewhorizons;
 
+import UpgradeSmithingTemplate.UpgradeSmithingTemplate_OneStep;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -35,7 +36,9 @@ public class MyMod {
     @Mod.EventHandler
     // postInit "Handle interaction with other mods, complete your setup based on this." (Remove if not needed)
     public void postInit(FMLPostInitializationEvent event) {
+
         proxy.postInit(event);
+        UpgradeSmithingTemplate_OneStep.registerItem();
     }
 
     @Mod.EventHandler
