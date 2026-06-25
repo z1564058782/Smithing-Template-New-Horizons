@@ -548,4 +548,5 @@ public class BlockList {
     public static final ItemStack Type_Filter_ZPM = getModItem(GregTech.ID, "gt.blockmachines", 1L, 9257);
     public static final ItemStack Type_Filter_UV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 9258);
     public static final ItemStack Type_Filter_UHV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 9259);
+
 }
