@@ -1,6 +1,8 @@
 package com.mofoga.smithingtemplatenewhorizons;
 
-import UpgradeSmithingTemplate.UpgradeSmithingTemplate_OneStep;
+import Recipes.UpgraderRecipes;
+import loader.CraftingLoader;
+import loader.ItemLoader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -10,6 +12,8 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
+
+import static loader.MachineLoader.loaderMachines;
 
 @Mod(modid = MyMod.MODID, version = Tags.VERSION, name = "Smithing Template New Horizons", acceptedMinecraftVersions = "[1.7.10]")
 public class MyMod {
@@ -24,21 +28,25 @@ public class MyMod {
     // preInit "Run before anything else. Read your config, create blocks, items, etc, and register them with the
     // GameRegistry." (Remove if not needed)
     public void preInit(FMLPreInitializationEvent event) {
+        // 创建ItemLoader实例，触发物品注册
+        new ItemLoader(event);
         proxy.preInit(event);
     }
 
     @Mod.EventHandler
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes." (Remove if not needed)
     public void init(FMLInitializationEvent event) {
+        loaderMachines();
+        new CraftingLoader();
         proxy.init(event);
     }
 
     @Mod.EventHandler
     // postInit "Handle interaction with other mods, complete your setup based on this." (Remove if not needed)
     public void postInit(FMLPostInitializationEvent event) {
-
+        UpgraderRecipes.addUpgraderRecipes_Tier();
+        UpgraderRecipes.addUpgraderRecipes_Voltage();
         proxy.postInit(event);
-        UpgradeSmithingTemplate_OneStep.registerItem();
     }
 
     @Mod.EventHandler

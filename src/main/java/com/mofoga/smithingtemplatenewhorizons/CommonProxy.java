@@ -11,17 +11,10 @@ public class CommonProxy {
 
     // preInit "Run before anything else. Read your config, create blocks, items, etc, and register them with the
     // GameRegistry." (Remove if not needed)
-    public void preInit(FMLPreInitializationEvent event) {
-        new ItemLoader(event);
-
-        Config.synchronizeConfiguration(event.getSuggestedConfigurationFile());
-
-        MyMod.LOG.info(Config.greeting);
-        MyMod.LOG.info("I am MyMod at version " + Tags.VERSION);
-    }
+    public void preInit(FMLPreInitializationEvent event) {}
 
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes." (Remove if not needed)
-    public void init(FMLInitializationEvent event) {new CraftingLoader();}
+    public void init(FMLInitializationEvent event) {}
 
     // postInit "Handle interaction with other mods, complete your setup based on this." (Remove if not needed)
     public void postInit(FMLPostInitializationEvent event) {}
