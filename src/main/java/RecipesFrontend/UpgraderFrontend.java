@@ -1,9 +1,14 @@
 package RecipesFrontend;
 
+import java.util.List;
+
+import javax.annotation.ParametersAreNonnullByDefault;
+
 import com.gtnewhorizons.modularui.api.math.Pos2d;
 import com.gtnewhorizons.modularui.api.math.Size;
 import com.gtnewhorizons.modularui.api.screen.ModularWindow;
 import com.gtnewhorizons.modularui.common.widget.ProgressBar;
+
 import gregtech.api.gui.modularui.GTUITextures;
 import gregtech.api.recipe.BasicUIPropertiesBuilder;
 import gregtech.api.recipe.NEIRecipePropertiesBuilder;
@@ -12,15 +17,12 @@ import gregtech.api.util.MethodsReturnNonnullByDefault;
 import gregtech.common.gui.modularui.UIHelper;
 import gregtech.nei.GTNEIDefaultHandler;
 
-import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.List;
-
 @ParametersAreNonnullByDefault
 @MethodsReturnNonnullByDefault
 public class UpgraderFrontend extends RecipeMapFrontend {
 
     public UpgraderFrontend(BasicUIPropertiesBuilder uiPropertiesBuilder,
-                            NEIRecipePropertiesBuilder neiRecipePropertiesBuilder) {
+        NEIRecipePropertiesBuilder neiRecipePropertiesBuilder) {
         super(
             uiPropertiesBuilder.logoPos(new Pos2d(8, 8)),
             neiRecipePropertiesBuilder.recipeBackgroundSize(new Size(170, 96)));

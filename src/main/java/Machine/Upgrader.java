@@ -1,42 +1,41 @@
 package Machine;
 
-import Recipes.UpgraderRecipes;
+import static com.gtnewhorizon.structurelib.structure.StructureUtility.*;
+import static gregtech.api.enums.HatchElement.*;
+import static gregtech.api.enums.Textures.BlockIcons.*;
+import static gregtech.api.util.GTStructureUtility.buildHatchAdder;
+
+import java.util.List;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraftforge.common.util.ForgeDirection;
+
+import org.jetbrains.annotations.NotNull;
+
 import com.gtnewhorizon.structurelib.alignment.constructable.ISurvivalConstructable;
 import com.gtnewhorizon.structurelib.structure.IStructureDefinition;
 import com.gtnewhorizon.structurelib.structure.ISurvivalBuildEnvironment;
 import com.gtnewhorizon.structurelib.structure.StructureDefinition;
-import gregtech.api.GregTechAPI;
+
+import Recipes.UpgraderRecipes;
 import gregtech.api.casing.Casings;
-import gregtech.api.enums.Textures;
 import gregtech.api.interfaces.ITexture;
 import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
 import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
 import gregtech.api.logic.ProcessingLogic;
 import gregtech.api.metatileentity.implementations.MTEExtendedPowerMultiBlockBase;
 import gregtech.api.recipe.RecipeMap;
-import gregtech.api.recipe.RecipeMaps;
 import gregtech.api.recipe.check.CheckRecipeResult;
 import gregtech.api.recipe.check.CheckRecipeResultRegistry;
 import gregtech.api.render.TextureFactory;
 import gregtech.api.structure.error.StructureError;
 import gregtech.api.structure.error.StructureErrorRegistry;
 import gregtech.api.util.GTRecipe;
-import gregtech.api.util.GTUtility;
 import gregtech.api.util.MultiblockTooltipBuilder;
-import gregtech.api.util.OverclockCalculator;
-import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraftforge.common.util.ForgeDirection;
-import org.jetbrains.annotations.NotNull;
-
-import java.util.List;
-
-import static com.gtnewhorizon.structurelib.structure.StructureUtility.*;
-import static gregtech.api.enums.HatchElement.*;
-import static gregtech.api.enums.Textures.BlockIcons.*;
-import static gregtech.api.util.GTStructureUtility.buildHatchAdder;
 
 public class Upgrader extends MTEExtendedPowerMultiBlockBase<Upgrader> implements ISurvivalConstructable {
+
     public Upgrader(int aID, String aName, String aNameRegional) {
         super(aID, aName, aNameRegional);
     }
@@ -57,8 +56,7 @@ public class Upgrader extends MTEExtendedPowerMultiBlockBase<Upgrader> implement
 
     // 定义机器结构
     private static final String STRUCTURE_PIECE_MAIN = "main";
-    private static final IStructureDefinition<Upgrader> STRUCTURE_DEFINITION = StructureDefinition
-        .<Upgrader>builder()
+    private static final IStructureDefinition<Upgrader> STRUCTURE_DEFINITION = StructureDefinition.<Upgrader>builder()
         .addShape(
             STRUCTURE_PIECE_MAIN,
             transpose(new String[][] { { "hhh", "hhh", "hhh" }, { "h~h", "h h", "hhh" }, { "hhh", "hhh", "hhh" } }))
@@ -78,6 +76,7 @@ public class Upgrader extends MTEExtendedPowerMultiBlockBase<Upgrader> implement
     @Override
     protected ProcessingLogic createProcessingLogic() {
         return new ProcessingLogic() {
+
             @Override
             public @NotNull CheckRecipeResult process() {
                 setSpeedBonus(1.0);
@@ -105,7 +104,7 @@ public class Upgrader extends MTEExtendedPowerMultiBlockBase<Upgrader> implement
 
     @Override
     public ITexture[] getTexture(IGregTechTileEntity aBaseMetaTileEntity, ForgeDirection side, ForgeDirection aFacing,
-                                 int colorIndex, boolean aActive, boolean redstoneLevel) {
+        int colorIndex, boolean aActive, boolean redstoneLevel) {
         if (side == aFacing) {
             if (aActive) {
                 return new ITexture[] { Casings.SolidSteelMachineCasing.getCasingTexture(), TextureFactory.builder()

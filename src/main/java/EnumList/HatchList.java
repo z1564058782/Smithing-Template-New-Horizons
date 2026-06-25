@@ -1,11 +1,12 @@
 package EnumList;
 
-import net.minecraft.item.ItemStack;
-
 import static gregtech.api.enums.Mods.GregTech;
 import static gregtech.api.util.GTModHandler.getModItem;
 
+import net.minecraft.item.ItemStack;
+
 public class HatchList {
+
     // Advanced Muffler Hatch
     public static final ItemStack Advanced_Muffler_Hatch_LV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 30001);
     public static final ItemStack Advanced_Muffler_Hatch_MV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 30002);
@@ -92,7 +93,7 @@ public class HatchList {
     public static final ItemStack Energy_Hatch64_EV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15129);
     public static final ItemStack Energy_Hatch_IV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 45);
     public static final ItemStack Energy_Hatch4_IV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15100);
-    public static final ItemStack Energy_Hatch16_IV =getModItem(GregTech.ID, "gt.blockmachines", 1L, 15110) ;
+    public static final ItemStack Energy_Hatch16_IV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15110);
     public static final ItemStack Energy_Hatch64_IV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15120);
     public static final ItemStack Energy_Hatch_LuV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 46);
     public static final ItemStack Energy_Hatch4_LuV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15101);
@@ -184,24 +185,48 @@ public class HatchList {
     public static final ItemStack Laser_Source_Hatch16384_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15266);
     public static final ItemStack Laser_Source_Hatch65536_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15276);
     public static final ItemStack Laser_Source_Hatch262144_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15286);
-    public static final ItemStack Laser_Source_Hatch1048576_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15296);
+    public static final ItemStack Laser_Source_Hatch1048576_UIV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15296);
     public static final ItemStack Laser_Source_Hatch256_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15237);
     public static final ItemStack Laser_Source_Hatch1024_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15247);
     public static final ItemStack Laser_Source_Hatch4096_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15257);
     public static final ItemStack Laser_Source_Hatch16384_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15267);
     public static final ItemStack Laser_Source_Hatch65536_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15277);
     public static final ItemStack Laser_Source_Hatch262144_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15287);
-    public static final ItemStack Laser_Source_Hatch1048576_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15297);
-    public static final ItemStack Laser_Source_Hatch4194304_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 16020);
+    public static final ItemStack Laser_Source_Hatch1048576_UMV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15297);
+    public static final ItemStack Laser_Source_Hatch4194304_UMV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        16020);
     public static final ItemStack Laser_Source_Hatch256_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15238);
     public static final ItemStack Laser_Source_Hatch1024_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15248);
     public static final ItemStack Laser_Source_Hatch4096_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15258);
     public static final ItemStack Laser_Source_Hatch16384_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15268);
     public static final ItemStack Laser_Source_Hatch65536_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15278);
     public static final ItemStack Laser_Source_Hatch262144_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15288);
-    public static final ItemStack Laser_Source_Hatch1048576_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15298);
-    public static final ItemStack Laser_Source_Hatch4194304_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 16021);
-    public static final ItemStack Laser_Source_Hatch1677216_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 16022);
+    public static final ItemStack Laser_Source_Hatch1048576_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15298);
+    public static final ItemStack Laser_Source_Hatch4194304_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        16021);
+    public static final ItemStack Laser_Source_Hatch1677216_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        16022);
     public static final ItemStack Laser_Source_Hatch_Legendary = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15299);
 
     // Laser Target Hatch
@@ -232,24 +257,48 @@ public class HatchList {
     public static final ItemStack Laser_Target_Hatch16384_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15166);
     public static final ItemStack Laser_Target_Hatch65536_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15176);
     public static final ItemStack Laser_Target_Hatch262144_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15186);
-    public static final ItemStack Laser_Target_Hatch1048576_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15196);
+    public static final ItemStack Laser_Target_Hatch1048576_UIV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15196);
     public static final ItemStack Laser_Target_Hatch256_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15137);
     public static final ItemStack Laser_Target_Hatch1024_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15147);
     public static final ItemStack Laser_Target_Hatch4096_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15157);
     public static final ItemStack Laser_Target_Hatch16384_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15167);
     public static final ItemStack Laser_Target_Hatch65536_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15177);
     public static final ItemStack Laser_Target_Hatch262144_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15187);
-    public static final ItemStack Laser_Target_Hatch1048576_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15197);
-    public static final ItemStack Laser_Target_Hatch4194304_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 16023);
+    public static final ItemStack Laser_Target_Hatch1048576_UMV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15197);
+    public static final ItemStack Laser_Target_Hatch4194304_UMV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        16023);
     public static final ItemStack Laser_Target_Hatch256_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15138);
     public static final ItemStack Laser_Target_Hatch1024_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15148);
     public static final ItemStack Laser_Target_Hatch4096_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15158);
     public static final ItemStack Laser_Target_Hatch16384_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15168);
     public static final ItemStack Laser_Target_Hatch65536_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15178);
     public static final ItemStack Laser_Target_Hatch262144_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15188);
-    public static final ItemStack Laser_Target_Hatch1048576_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15198);
-    public static final ItemStack Laser_Target_Hatch4194304_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 16024);
-    public static final ItemStack Laser_Target_Hatch1677216_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 16025);
+    public static final ItemStack Laser_Target_Hatch1048576_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15198);
+    public static final ItemStack Laser_Target_Hatch4194304_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        16024);
+    public static final ItemStack Laser_Target_Hatch1677216_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        16025);
     public static final ItemStack Laser_Target_Hatch_Legendary = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15199);
 
     // Muffler Hatch
@@ -356,14 +405,46 @@ public class HatchList {
     public static final ItemStack Wireless_Energy_Hatch16_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15093);
     public static final ItemStack Wireless_Energy_Hatch64_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15094);
     public static final ItemStack Wireless_Energy_Hatch256_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15500);
-    public static final ItemStack Wireless_Energy_Hatch1024_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15501);
-    public static final ItemStack Wireless_Energy_Hatch4096_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15502);
-    public static final ItemStack Wireless_Energy_Hatch16384_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15503);
-    public static final ItemStack Wireless_Energy_Hatch65536_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15504);
-    public static final ItemStack Wireless_Energy_Hatch262144_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15505);
-    public static final ItemStack Wireless_Energy_Hatch1048576_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15506);
-    public static final ItemStack Wireless_Energy_Hatch4194304_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 16026);
-    public static final ItemStack Wireless_Energy_Hatch1677216_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 16027);
+    public static final ItemStack Wireless_Energy_Hatch1024_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15501);
+    public static final ItemStack Wireless_Energy_Hatch4096_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15502);
+    public static final ItemStack Wireless_Energy_Hatch16384_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15503);
+    public static final ItemStack Wireless_Energy_Hatch65536_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15504);
+    public static final ItemStack Wireless_Energy_Hatch262144_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15505);
+    public static final ItemStack Wireless_Energy_Hatch1048576_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        15506);
+    public static final ItemStack Wireless_Energy_Hatch4194304_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        16026);
+    public static final ItemStack Wireless_Energy_Hatch1677216_UXV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        16027);
     public static final ItemStack Wireless_Energy_Hatch_MAX = getModItem(GregTech.ID, "gt.blockmachines", 1L, 286);
     public static final ItemStack Wireless_Energy_Hatch4_MAX = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15095);
     public static final ItemStack Wireless_Energy_Hatch16_MAX = getModItem(GregTech.ID, "gt.blockmachines", 1L, 15096);

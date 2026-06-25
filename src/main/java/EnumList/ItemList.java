@@ -1,13 +1,14 @@
 package EnumList;
 
-import net.minecraft.item.ItemStack;
-
 import static gregtech.api.enums.Mods.GoodGenerator;
 import static gregtech.api.enums.Mods.GregTech;
 import static gregtech.api.util.GTModHandler.getModItem;
 import static loader.ItemLoader.upgradeSmithingTemplate;
 
+import net.minecraft.item.ItemStack;
+
 public class ItemList {
+
     // Upgrade Smithing Template
     public static final ItemStack UpgradeSmithingTemplate_ULV_LV = new ItemStack(upgradeSmithingTemplate, 1, 0);
     public static final ItemStack UpgradeSmithingTemplate_LV_MV = new ItemStack(upgradeSmithingTemplate, 1, 1);
@@ -93,16 +94,32 @@ public class ItemList {
     public static final ItemStack Optical_Mainframe = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32157);
     public static final ItemStack Exotic_Supercomputer = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32168);
     public static final ItemStack Cosmic_Assembly = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32171);
-    public static final ItemStack Temporally_Transcendent_Processor = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32174);
+    public static final ItemStack Temporally_Transcendent_Processor = getModItem(
+        GregTech.ID,
+        "gt.metaitem.03",
+        1L,
+        32174);
     // Circuit - UMV
     public static final ItemStack Exotic_Mainframe = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32169);
     public static final ItemStack Cosmic_Supercomputer = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32172);
-    public static final ItemStack Temporally_Transcendent_Assembly = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32175);
+    public static final ItemStack Temporally_Transcendent_Assembly = getModItem(
+        GregTech.ID,
+        "gt.metaitem.03",
+        1L,
+        32175);
     // Circuit - UXV
     public static final ItemStack Cosmic_Mainframe = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32173);
-    public static final ItemStack Temporally_Transcendent_Supercomputer = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32176);
+    public static final ItemStack Temporally_Transcendent_Supercomputer = getModItem(
+        GregTech.ID,
+        "gt.metaitem.03",
+        1L,
+        32176);
     // Circuit - MAX
-    public static final ItemStack Temporally_Transcendent_Mainframe = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32177);
+    public static final ItemStack Temporally_Transcendent_Mainframe = getModItem(
+        GregTech.ID,
+        "gt.metaitem.03",
+        1L,
+        32177);
 
     // Conveyor Module
     public static final ItemStack Conveyor_Module_LV = getModItem(GregTech.ID, "gt.metaitem.01", 1L, 32630);
@@ -250,10 +267,26 @@ public class ItemList {
 
     // Silicon Boule
     public static final ItemStack Monocrystalline_Silicon_Boule = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32030);
-    public static final ItemStack Phosphorus_doped_Monocrystalline_Silicon_Boule = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32031);
-    public static final ItemStack Naquadah_doped_Monocrystalline_Silicon_Boule = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32032);
-    public static final ItemStack Europium_doped_Monocrystalline_Silicon_Boule = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32150);
-    public static final ItemStack Americium_doped_Monocrystalline_Silicon_Boule = getModItem(GregTech.ID, "gt.metaitem.03", 1L, 32152);
+    public static final ItemStack Phosphorus_doped_Monocrystalline_Silicon_Boule = getModItem(
+        GregTech.ID,
+        "gt.metaitem.03",
+        1L,
+        32031);
+    public static final ItemStack Naquadah_doped_Monocrystalline_Silicon_Boule = getModItem(
+        GregTech.ID,
+        "gt.metaitem.03",
+        1L,
+        32032);
+    public static final ItemStack Europium_doped_Monocrystalline_Silicon_Boule = getModItem(
+        GregTech.ID,
+        "gt.metaitem.03",
+        1L,
+        32150);
+    public static final ItemStack Americium_doped_Monocrystalline_Silicon_Boule = getModItem(
+        GregTech.ID,
+        "gt.metaitem.03",
+        1L,
+        32152);
 
     // Solar Panel
     public static final ItemStack Solar_Panel_ULV = getModItem(GregTech.ID, "gt.metaitem.01", 1L, 32751);

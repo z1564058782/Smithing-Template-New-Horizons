@@ -1,11 +1,12 @@
 package EnumList;
 
-import net.minecraft.item.ItemStack;
-
 import static gregtech.api.enums.Mods.GregTech;
 import static gregtech.api.util.GTModHandler.getModItem;
 
+import net.minecraft.item.ItemStack;
+
 public class WireList {
+
     // 1x Superconductor
     public static final ItemStack Red_Alloy_Cable1 = getModItem(GregTech.ID, "gt.blockmachines", 1L, 2006);
     public static final ItemStack Redstone_Alloy_Cable1 = getModItem(GregTech.ID, "gt.blockmachines", 1L, 30651);

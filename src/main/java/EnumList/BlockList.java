@@ -1,11 +1,12 @@
 package EnumList;
 
-import net.minecraft.item.ItemStack;
-
 import static gregtech.api.enums.Mods.*;
 import static gregtech.api.util.GTModHandler.getModItem;
 
+import net.minecraft.item.ItemStack;
+
 public class BlockList {
+
     // Battery Buffer 1x
     public static final ItemStack Battery_Buffer1_ULV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 160);
     public static final ItemStack Battery_Buffer1_LV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 161);
@@ -114,15 +115,51 @@ public class BlockList {
 
     // Borosilicate Glass Block
     public static final ItemStack Borosilicate_Glass_Block = getModItem(BartWorks.ID, "BW_GlasBlocks", 1L, 0);
-    public static final ItemStack Titanium_Reinforced_Borosilicate_Glass_Block = getModItem(BartWorks.ID, "BW_GlasBlocks", 1L, 1);
-    public static final ItemStack Tungstensteel_Reinforced_Borosilicate_Glass_Block = getModItem(BartWorks.ID, "BW_GlasBlocks", 1L, 2);
-    public static final ItemStack Rhodium_Plated_Palladium_Reinforced_Borosilicate_Glass_Block = getModItem(BartWorks.ID, "BW_GlasBlocks", 1L, 3);
-    public static final ItemStack Iridium_Reinforced_Borosilicate_Glass_Block = getModItem(BartWorks.ID, "BW_GlasBlocks", 1L, 4);
-    public static final ItemStack Osmium_Reinforced_Borosilicate_Glass_Block = getModItem(BartWorks.ID, "BW_GlasBlocks", 1L, 5);
-    public static final ItemStack Neutronium_Reinforced_Borosilicate_Glass_Block = getModItem(BartWorks.ID, "BW_GlasBlocks", 1L, 13);
-    public static final ItemStack Cosmic_Neutronium_Reinforced_Borosilicate_Glass_Block = getModItem(BartWorks.ID, "BW_GlasBlocks", 1L, 14);
-    public static final ItemStack Infinity_Reinforced_Borosilicate_Glass_Block = getModItem(BartWorks.ID, "BW_GlasBlocks", 1L, 15);
-    public static final ItemStack Transcendentally_Reinforced_Borosilicate_Glass_Block = getModItem(BartWorks.ID, "BW_GlasBlocks2", 1L, 0);
+    public static final ItemStack Titanium_Reinforced_Borosilicate_Glass_Block = getModItem(
+        BartWorks.ID,
+        "BW_GlasBlocks",
+        1L,
+        1);
+    public static final ItemStack Tungstensteel_Reinforced_Borosilicate_Glass_Block = getModItem(
+        BartWorks.ID,
+        "BW_GlasBlocks",
+        1L,
+        2);
+    public static final ItemStack Rhodium_Plated_Palladium_Reinforced_Borosilicate_Glass_Block = getModItem(
+        BartWorks.ID,
+        "BW_GlasBlocks",
+        1L,
+        3);
+    public static final ItemStack Iridium_Reinforced_Borosilicate_Glass_Block = getModItem(
+        BartWorks.ID,
+        "BW_GlasBlocks",
+        1L,
+        4);
+    public static final ItemStack Osmium_Reinforced_Borosilicate_Glass_Block = getModItem(
+        BartWorks.ID,
+        "BW_GlasBlocks",
+        1L,
+        5);
+    public static final ItemStack Neutronium_Reinforced_Borosilicate_Glass_Block = getModItem(
+        BartWorks.ID,
+        "BW_GlasBlocks",
+        1L,
+        13);
+    public static final ItemStack Cosmic_Neutronium_Reinforced_Borosilicate_Glass_Block = getModItem(
+        BartWorks.ID,
+        "BW_GlasBlocks",
+        1L,
+        14);
+    public static final ItemStack Infinity_Reinforced_Borosilicate_Glass_Block = getModItem(
+        BartWorks.ID,
+        "BW_GlasBlocks",
+        1L,
+        15);
+    public static final ItemStack Transcendentally_Reinforced_Borosilicate_Glass_Block = getModItem(
+        BartWorks.ID,
+        "BW_GlasBlocks2",
+        1L,
+        0);
 
     // Cable Diode 2A
     public static final ItemStack Cable_Diode2_ULV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 12617);
@@ -139,7 +176,7 @@ public class BlockList {
     public static final ItemStack Cable_Diode2_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 12628);
     public static final ItemStack Cable_Diode2_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 12629);
     public static final ItemStack Cable_Diode2_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 12630);
-    public static final ItemStack Cable_Diode2_MAX =  getModItem(GregTech.ID, "gt.blockmachines", 1L, 12631);
+    public static final ItemStack Cable_Diode2_MAX = getModItem(GregTech.ID, "gt.blockmachines", 1L, 12631);
 
     // Cable Diode 4A
     public static final ItemStack Cable_Diode4_ULV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 12633);
@@ -210,7 +247,11 @@ public class BlockList {
     public static final ItemStack Cable_Diode16_MAX = getModItem(GregTech.ID, "gt.blockmachines", 1L, 12695);
 
     // Capacitor
-    public static final ItemStack Capacitor_Empty = getModItem(KekzTech.ID, "kekztech_lapotronicenergyunit_block", 1L, 6);
+    public static final ItemStack Capacitor_Empty = getModItem(
+        KekzTech.ID,
+        "kekztech_lapotronicenergyunit_block",
+        1L,
+        6);
     public static final ItemStack Capacitor_EV = getModItem(KekzTech.ID, "kekztech_lapotronicenergyunit_block", 1L, 7);
     public static final ItemStack Capacitor_IV = getModItem(KekzTech.ID, "kekztech_lapotronicenergyunit_block", 1L, 1);
     public static final ItemStack Capacitor_LuV = getModItem(KekzTech.ID, "kekztech_lapotronicenergyunit_block", 1L, 2);
@@ -219,7 +260,11 @@ public class BlockList {
     public static final ItemStack Capacitor_UHV = getModItem(KekzTech.ID, "kekztech_lapotronicenergyunit_block", 1L, 5);
     public static final ItemStack Capacitor_UEV = getModItem(KekzTech.ID, "kekztech_lapotronicenergyunit_block", 1L, 8);
     public static final ItemStack Capacitor_UIV = getModItem(KekzTech.ID, "kekztech_lapotronicenergyunit_block", 1L, 9);
-    public static final ItemStack Capacitor_UMV = getModItem(KekzTech.ID, "kekztech_lapotronicenergyunit_block", 1L, 10);
+    public static final ItemStack Capacitor_UMV = getModItem(
+        KekzTech.ID,
+        "kekztech_lapotronicenergyunit_block",
+        1L,
+        10);
 
     // Chest Buffer
     public static final ItemStack Chest_Buffer_ULV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 9230);
@@ -328,8 +373,16 @@ public class BlockList {
     public static final ItemStack Platinum_Item_Pipe_Casing = getModItem(GregTech.ID, "gt.blockcasings11", 1L, 3);
     public static final ItemStack Osmium_Item_Pipe_Casing = getModItem(GregTech.ID, "gt.blockcasings11", 1L, 4);
     public static final ItemStack Quantium_Item_Pipe_Casing = getModItem(GregTech.ID, "gt.blockcasings11", 1L, 5);
-    public static final ItemStack Fluxed_Electrum_Item_Pipe_Casing = getModItem(GregTech.ID, "gt.blockcasings11", 1L, 6);
-    public static final ItemStack Black_Plutonium_Item_Pipe_Casing = getModItem(GregTech.ID, "gt.blockcasings11", 1L, 7);
+    public static final ItemStack Fluxed_Electrum_Item_Pipe_Casing = getModItem(
+        GregTech.ID,
+        "gt.blockcasings11",
+        1L,
+        6);
+    public static final ItemStack Black_Plutonium_Item_Pipe_Casing = getModItem(
+        GregTech.ID,
+        "gt.blockcasings11",
+        1L,
+        7);
 
     // Machine Casing
     public static final ItemStack Machine_Casing_ULV = getModItem(GregTech.ID, "gt.blockcasings", 1L, 0);
@@ -417,16 +470,56 @@ public class BlockList {
     public static final ItemStack Super_Buffer_UHV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 9309);
 
     // T.F.F.T Storage Field Block
-    public static final ItemStack TFFT_Storage_Field_Block_T1 = getModItem(KekzTech.ID, "kekztech_tfftstoragefield_block", 1L, 1);
-    public static final ItemStack TFFT_Storage_Field_Block_T2 = getModItem(KekzTech.ID, "kekztech_tfftstoragefield_block", 1L, 2);
-    public static final ItemStack TFFT_Storage_Field_Block_T3 = getModItem(KekzTech.ID, "kekztech_tfftstoragefield_block", 1L, 3);
-    public static final ItemStack TFFT_Storage_Field_Block_T4 = getModItem(KekzTech.ID, "kekztech_tfftstoragefield_block", 1L, 4);
-    public static final ItemStack TFFT_Storage_Field_Block_T5 = getModItem(KekzTech.ID, "kekztech_tfftstoragefield_block", 1L, 5);
-    public static final ItemStack TFFT_Storage_Field_Block_T6 = getModItem(KekzTech.ID, "kekztech_tfftstoragefield_block", 1L, 6);
-    public static final ItemStack TFFT_Storage_Field_Block_T7 = getModItem(KekzTech.ID, "kekztech_tfftstoragefield_block", 1L, 7);
-    public static final ItemStack TFFT_Storage_Field_Block_T8 = getModItem(KekzTech.ID, "kekztech_tfftstoragefield_block", 1L, 8);
-    public static final ItemStack TFFT_Storage_Field_Block_T9 = getModItem(KekzTech.ID, "kekztech_tfftstoragefield_block", 1L, 9);
-    public static final ItemStack TFFT_Storage_Field_Block_T10 = getModItem(KekzTech.ID, "kekztech_tfftstoragefield_block", 1L, 10);
+    public static final ItemStack TFFT_Storage_Field_Block_T1 = getModItem(
+        KekzTech.ID,
+        "kekztech_tfftstoragefield_block",
+        1L,
+        1);
+    public static final ItemStack TFFT_Storage_Field_Block_T2 = getModItem(
+        KekzTech.ID,
+        "kekztech_tfftstoragefield_block",
+        1L,
+        2);
+    public static final ItemStack TFFT_Storage_Field_Block_T3 = getModItem(
+        KekzTech.ID,
+        "kekztech_tfftstoragefield_block",
+        1L,
+        3);
+    public static final ItemStack TFFT_Storage_Field_Block_T4 = getModItem(
+        KekzTech.ID,
+        "kekztech_tfftstoragefield_block",
+        1L,
+        4);
+    public static final ItemStack TFFT_Storage_Field_Block_T5 = getModItem(
+        KekzTech.ID,
+        "kekztech_tfftstoragefield_block",
+        1L,
+        5);
+    public static final ItemStack TFFT_Storage_Field_Block_T6 = getModItem(
+        KekzTech.ID,
+        "kekztech_tfftstoragefield_block",
+        1L,
+        6);
+    public static final ItemStack TFFT_Storage_Field_Block_T7 = getModItem(
+        KekzTech.ID,
+        "kekztech_tfftstoragefield_block",
+        1L,
+        7);
+    public static final ItemStack TFFT_Storage_Field_Block_T8 = getModItem(
+        KekzTech.ID,
+        "kekztech_tfftstoragefield_block",
+        1L,
+        8);
+    public static final ItemStack TFFT_Storage_Field_Block_T9 = getModItem(
+        KekzTech.ID,
+        "kekztech_tfftstoragefield_block",
+        1L,
+        9);
+    public static final ItemStack TFFT_Storage_Field_Block_T10 = getModItem(
+        KekzTech.ID,
+        "kekztech_tfftstoragefield_block",
+        1L,
+        10);
 
     // Transformer
     public static final ItemStack Transformer_ULV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 20);
@@ -455,12 +548,4 @@ public class BlockList {
     public static final ItemStack Type_Filter_ZPM = getModItem(GregTech.ID, "gt.blockmachines", 1L, 9257);
     public static final ItemStack Type_Filter_UV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 9258);
     public static final ItemStack Type_Filter_UHV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 9259);
-
-    // Vanadium Redox Power Cell
-    public static final ItemStack Vanadium_Redox_Power_Cell_EV = getModItem(GTPlusPlus.ID, "gtplusplus.blockcasings.2", 1L, 7);
-    public static final ItemStack Vanadium_Redox_Power_Cell_IV = getModItem(GTPlusPlus.ID, "gtplusplus.blockcasings.3", 1L, 4);
-    public static final ItemStack Vanadium_Redox_Power_Cell_LuV = getModItem(GTPlusPlus.ID, "gtplusplus.blockcasings.3", 1L, 5);
-    public static final ItemStack Vanadium_Redox_Power_Cell_ZPM = getModItem(GTPlusPlus.ID, "gtplusplus.blockcasings.3", 1L, 6);
-    public static final ItemStack Vanadium_Redox_Power_Cell_UV = getModItem(GTPlusPlus.ID, "gtplusplus.blockcasings.3", 1L, 7);
-    public static final ItemStack Vanadium_Redox_Power_Cell_UHV = getModItem(GTPlusPlus.ID, "gtplusplus.blockcasings.3", 1L, 8);
 }

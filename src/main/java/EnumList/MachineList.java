@@ -1,11 +1,12 @@
 package EnumList;
 
-import net.minecraft.item.ItemStack;
-
 import static gregtech.api.enums.Mods.GregTech;
 import static gregtech.api.util.GTModHandler.getModItem;
 
+import net.minecraft.item.ItemStack;
+
 public class MachineList {
+
     // Alloy Smelter
     public static final ItemStack Alloy_Smelter_LV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 201);
     public static final ItemStack Alloy_Smelter_MV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 202);
@@ -265,13 +266,37 @@ public class MachineList {
     public static final ItemStack Electromagnetic_Polarizer_HV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 553);
     public static final ItemStack Electromagnetic_Polarizer_EV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 554);
     public static final ItemStack Electromagnetic_Polarizer_IV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 555);
-    public static final ItemStack Electromagnetic_Polarizer_LuV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10980);
-    public static final ItemStack Electromagnetic_Polarizer_ZPM = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10981);
+    public static final ItemStack Electromagnetic_Polarizer_LuV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10980);
+    public static final ItemStack Electromagnetic_Polarizer_ZPM = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10981);
     public static final ItemStack Electromagnetic_Polarizer_UV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10982);
-    public static final ItemStack Electromagnetic_Polarizer_UHV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10983);
-    public static final ItemStack Electromagnetic_Polarizer_UEV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10984);
-    public static final ItemStack Electromagnetic_Polarizer_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10985);
-    public static final ItemStack Electromagnetic_Polarizer_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10986);
+    public static final ItemStack Electromagnetic_Polarizer_UHV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10983);
+    public static final ItemStack Electromagnetic_Polarizer_UEV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10984);
+    public static final ItemStack Electromagnetic_Polarizer_UIV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10985);
+    public static final ItemStack Electromagnetic_Polarizer_UMV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10986);
 
     // Electromagnetic Separator
     public static final ItemStack Electromagnetic_Separator_LV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 561);
@@ -279,13 +304,37 @@ public class MachineList {
     public static final ItemStack Electromagnetic_Separator_HV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 563);
     public static final ItemStack Electromagnetic_Separator_EV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 564);
     public static final ItemStack Electromagnetic_Separator_IV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 565);
-    public static final ItemStack Electromagnetic_Separator_LuV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10860);
-    public static final ItemStack Electromagnetic_Separator_ZPM = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10861);
+    public static final ItemStack Electromagnetic_Separator_LuV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10860);
+    public static final ItemStack Electromagnetic_Separator_ZPM = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10861);
     public static final ItemStack Electromagnetic_Separator_UV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10862);
-    public static final ItemStack Electromagnetic_Separator_UHV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10863);
-    public static final ItemStack Electromagnetic_Separator_UEV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10864);
-    public static final ItemStack Electromagnetic_Separator_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10865);
-    public static final ItemStack Electromagnetic_Separator_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10866);
+    public static final ItemStack Electromagnetic_Separator_UHV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10863);
+    public static final ItemStack Electromagnetic_Separator_UEV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10864);
+    public static final ItemStack Electromagnetic_Separator_UIV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10865);
+    public static final ItemStack Electromagnetic_Separator_UMV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        10866);
 
     // Extruder
     public static final ItemStack Extruder_LV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 281);
@@ -470,13 +519,41 @@ public class MachineList {
     public static final ItemStack Microwave_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 10966);
 
     // Microwave Energy Transmitter
-    public static final ItemStack Microwave_Energy_Transmitter_HV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 1161);
-    public static final ItemStack Microwave_Energy_Transmitter_EV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 1162);
-    public static final ItemStack Microwave_Energy_Transmitter_IV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 1163);
-    public static final ItemStack Microwave_Energy_Transmitter_LuV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 1164);
-    public static final ItemStack Microwave_Energy_Transmitter_ZPM = getModItem(GregTech.ID, "gt.blockmachines", 1L, 1165);
-    public static final ItemStack Microwave_Energy_Transmitter_UV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 1166);
-    public static final ItemStack Microwave_Energy_Transmitter_UHV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 1145);
+    public static final ItemStack Microwave_Energy_Transmitter_HV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        1161);
+    public static final ItemStack Microwave_Energy_Transmitter_EV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        1162);
+    public static final ItemStack Microwave_Energy_Transmitter_IV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        1163);
+    public static final ItemStack Microwave_Energy_Transmitter_LuV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        1164);
+    public static final ItemStack Microwave_Energy_Transmitter_ZPM = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        1165);
+    public static final ItemStack Microwave_Energy_Transmitter_UV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        1166);
+    public static final ItemStack Microwave_Energy_Transmitter_UHV = getModItem(
+        GregTech.ID,
+        "gt.blockmachines",
+        1L,
+        1145);
 
     // Mixer
     public static final ItemStack Mixer_LV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 581);
@@ -676,38 +753,36 @@ public class MachineList {
     public static final ItemStack World_Accelerator_ZPM = getModItem(GregTech.ID, "gt.blockmachines", 1L, 11106);
     public static final ItemStack World_Accelerator_UV = getModItem(GregTech.ID, "gt.blockmachines", 1L, 11107);
 
-
     /*
-    //
-    public static final ItemStack Sensor_LV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_MV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_HV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_EV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_IV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_LuV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_ZPM = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_UV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_UHV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_UEV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-    public static final ItemStack Sensor_MAX = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
-
-    //
-    public static final ItemStack Sensor_LV = ;
-    public static final ItemStack Sensor_MV = ;
-    public static final ItemStack Sensor_HV = ;
-    public static final ItemStack Sensor_EV = ;
-    public static final ItemStack Sensor_IV = ;
-    public static final ItemStack Sensor_LuV = ;
-    public static final ItemStack Sensor_ZPM = ;
-    public static final ItemStack Sensor_UV = ;
-    public static final ItemStack Sensor_UHV = ;
-    public static final ItemStack Sensor_UEV = ;
-    public static final ItemStack Sensor_UIV = ;
-    public static final ItemStack Sensor_UMV = ;
-    public static final ItemStack Sensor_UXV = ;
-    public static final ItemStack Sensor_MAX = ;
-*/
+     * //
+     * public static final ItemStack Sensor_LV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_MV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_HV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_EV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_IV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_LuV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_ZPM = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_UV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_UHV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_UEV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_UIV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_UMV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_UXV = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * public static final ItemStack Sensor_MAX = getModItem(GregTech.ID, "gt.blockmachines", 1L, );
+     * //
+     * public static final ItemStack Sensor_LV = ;
+     * public static final ItemStack Sensor_MV = ;
+     * public static final ItemStack Sensor_HV = ;
+     * public static final ItemStack Sensor_EV = ;
+     * public static final ItemStack Sensor_IV = ;
+     * public static final ItemStack Sensor_LuV = ;
+     * public static final ItemStack Sensor_ZPM = ;
+     * public static final ItemStack Sensor_UV = ;
+     * public static final ItemStack Sensor_UHV = ;
+     * public static final ItemStack Sensor_UEV = ;
+     * public static final ItemStack Sensor_UIV = ;
+     * public static final ItemStack Sensor_UMV = ;
+     * public static final ItemStack Sensor_UXV = ;
+     * public static final ItemStack Sensor_MAX = ;
+     */
 }
